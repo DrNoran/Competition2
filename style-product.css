@@ -1,0 +1,290 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    margin-top: 45px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+.search input {
+    border: none;
+    padding-left: 20px;
+    width: 100px;
+    
+}
+.search input:focus {
+    outline: none;
+}
+
+.search input:hover {
+    transform: translateX(10px); 
+    
+}
+
+header .name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icons i {
+    padding-left: 7px;
+    color: gray;
+    width: 40px;
+    transition-property: width , height;
+    position: relative;
+}
+
+.icons i:hover, .icons i:active {
+    color: black;
+    font-size: 110%;
+}
+
+.icons sup {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+    background: blueviolet;
+    color: rgb(219, 218, 218);
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* end header */
+
+nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    margin-left: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold; 
+}
+
+nav:hover {
+    color: blueviolet;
+}
+
+nav select:hover {
+    color: blueviolet;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+select {
+    border: none;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+select:focus {
+    outline: none;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* end nav */
+
+.nav2 {
+    background-color: rgb(245, 245, 245);
+    margin-top: 20px;
+    height: 40px;
+    padding-left: 60px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.nav2 span {
+    color: blueviolet;
+}
+
+/* end nav2 */
+
+.mid-sec {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px; 
+}
+
+.mid-sec img {
+    padding-left: 100px;
+}
+
+.mid-text {
+    width: 40%; 
+    padding-right: 80px;
+    margin-right: 0px;
+}
+
+.mid-text p {
+    color: gray;
+    font-size: 17px;
+}
+
+.mid-text .price {
+    color: rgb(119, 13, 146);
+    font-weight: bold;
+}
+
+
+.mid-text .submit {
+    display: flex;
+}
+
+.submit button {
+    width: 30px;
+    height: 40px;
+    background-color: white;
+    text-decoration: none;
+    border-color: rgb(180, 138, 219);
+}
+
+.submit button:hover {
+    background-color: blueviolet;
+}
+
+.submit form {
+    width: 50px;
+    border: 1px solid rgb(216, 212, 216);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.mid-text a button {
+    width: 120px;
+    height: 40px;
+    background-color: blueviolet;
+    color: rgb(235, 229, 229);
+    border-radius: 5px;
+    box-shadow: 2px 2px blueviolet;
+    border: none;
+    text-decoration: none; 
+    transition: all 0.5s ease;
+}
+
+.mid-text a button:hover {
+    box-shadow: 30px , 30px , 10px , black;
+    transform: translate(4px,4px);
+}
+
+/* end mid sec */
+
+.midtext {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 70px;
+    background-color: rgb(233, 225, 225);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mid-imgs {
+    background-color: rgb(233, 225, 225);
+    height: 500px;
+
+}
+
+.mainsec {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 280px;
+    margin-right: 280px;
+    height: 300px;
+}
+
+.main {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    background-color: white;
+}
+
+.main .text {
+    padding-top: 50px;
+}
+
+/* end mid imgs */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-left: 40px;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.footer li {
+    color: gray;
+    font-size: 12px;
+}
+
+.footer p {
+    color: gray;
+    font-size: 12px;
+}
+
+.footer i {
+    color: blueviolet;
+}
+.span-f {
+    color: blueviolet;
+}
+
+.footer .info {
+    width: 150px;
+    text-align: left; 
+}
+
+.footer button {
+    width: 80px;
+    height: 35px;
+    background-color: blueviolet;
+    color: rgb(238, 232, 232);
+    border-radius: 5px;
+    box-shadow: 2px 2px blueviolet;
+    border: none;
+    text-decoration: none; 
+}
+
+
+.footer-b {
+    display: flex;
+    justify-content: space-between;  
+    width: 180px;
+}
+
+footer {
+    color: gray;
+    text-align: center;
+    margin-top: 100px;
+}
